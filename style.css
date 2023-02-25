@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    justify-items: center;
+    width: 100px;
+    height: 350px;
+    left:   10px;
+    background-color: red;
+    border-radius: 15px;
+    margin-top: 80px;
+}
+.container1{
+    position: relative;
+    /* background-color: orange; */
+}
+.bnt{
+    position: relative;
+    top: 20px;
+    border-radius: 20px;
+    background-color: orange;
+    color: black;
+    box-shadow: 1px 1px 3px 1px  ;
+}
+.bnt:hover{
+    background: linear-gradient(to right,  white, white);
+
+}
+@media screen (max-width-529px) {
+    
+}
